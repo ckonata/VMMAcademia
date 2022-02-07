@@ -28,7 +28,7 @@ form {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   z-index: 1;
 }
 
@@ -59,22 +59,17 @@ nav {
 }
 
 nav ul {
-  width: 8vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 20px;
   margin-top: 60px;
   margin-right: 300px;
   position: relative;
 }
 
 nav a img {
-  width: 6vw;
-  font-size: 20px;
   margin-top: 50px;
-  margin-left: 300px;
   position: relative;
   z-index: 9999;
 }
@@ -87,22 +82,22 @@ ion-icon {
   cursor: pointer;
 }
 
-ion-icon[name="logo-linkedin"]:hover {
+ion-icon[name='logo-linkedin']:hover {
   color: #2867b2;
   transform: scale(1.5);
 }
 
-ion-icon[name="logo-youtube"]:hover {
+ion-icon[name='logo-youtube']:hover {
   color: #ff0000;
   transform: scale(1.5);
 }
 
-ion-icon[name="logo-instagram"]:hover {
+ion-icon[name='logo-instagram']:hover {
   color: #c13584;
   transform: scale(1.5);
 }
 
-ion-icon[name="mail-outline"]:hover {
+ion-icon[name='mail-outline']:hover {
   color: #ffdc80;
   transform: scale(1.5);
 }
@@ -117,23 +112,15 @@ ion-icon[name="mail-outline"]:hover {
 }
 
 .heading1 h1 {
-  font-size: 60px;
-  width: 50vw;
   font-weight: 900;
 }
 
 .heading1 h3 {
-  margin-top: 40px;
-  font-size: 16px;
-  width: 50vw;
   font-weight: 100;
 }
 
 .heading1 p {
-  font-size: 18px;
-  width: 39vw;
   font-weight: 300;
-  margin-top: 30px;
 }
 
 .bold {
@@ -163,7 +150,7 @@ ion-icon[name="mail-outline"]:hover {
 .button:before,
 .button:after {
   position: absolute;
-  content: "";
+  content: '';
   left: -1px;
   top: -1px;
   right: -1px;
@@ -196,31 +183,31 @@ ion-icon[name="mail-outline"]:hover {
   transform: scale(1);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .container {
     background-position-x: right;
   }
 
   nav ul {
-    width: 20vw;
-    font-size: 20px;
-    margin-right: 100px;
+    width: 26vw;
+    font-size: 16px;
+    margin-right: 60px;
   }
 
   nav a img {
-    width: 10vw;
-    font-size: 30px;
-    margin-left: 100px;
+    width: 15vw;
+    margin-left: 60px;
   }
 
   .hero {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 60px;
+    margin-left: 60px;
   }
 
   .heading1 h1 {
     font-size: 30px;
-    width: 70vw;
+    width: 60vw;
+    margin-bottom: -15px;
   }
 
   .heading1 h3 {
@@ -228,31 +215,36 @@ ion-icon[name="mail-outline"]:hover {
     width: 50vw;
   }
 
+  .none {
+    display: none;
+  }
+
   .heading1 p {
-    font-size: 15px;
-    width: 70vw;
+    font-size: 12px;
+    width: 65vw;
+    margin-top: 5px;
   }
 
   .button {
     width: 25vw;
-    margin-top: 30px;
+    font-size: 16px;
+    margin-top: -10px;
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-device-width: 667px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   .container {
     background-position-x: right;
   }
 
   nav ul {
-    width: 20vw;
-    font-size: 20px;
+    width: 26vw;
+    font-size: 16px;
     margin-right: 100px;
   }
 
   nav a img {
     width: 10vw;
-    font-size: 30px;
     margin-left: 100px;
   }
 
@@ -262,104 +254,82 @@ ion-icon[name="mail-outline"]:hover {
   }
 
   .heading1 h1 {
-    font-size: 30px;
-    width: 70vw;
+    font-size: 50px;
+    width: 60vw;
+    margin-bottom: -15px;
   }
 
   .heading1 h3 {
-    font-size: 16px;
+    font-size: 20px;
     width: 50vw;
-  }
-
-  .heading1 p {
-    font-size: 15px;
-    width: 70vw;
-  }
-
-  .button {
-    width: 10vw;
     margin-top: 30px;
   }
-}
 
-@media only screen and (max-width: 2000px) {
-  nav ul {
-    width: 15vw;
-    font-size: 25px;
-    margin-right: 250px;
-  }
-
-  nav a img {
-    width: 8vw;
-    font-size: 25px;
-    margin-left: 250px;
-  }
-
-  .hero {
-    margin-right: 250px;
-    margin-left: 250px;
-  }
-
-  .heading1 h1 {
-    font-size: 40px;
-    width: 50vw;
-  }
-
-  .heading1 h3 {
-    font-size: 16px;
-    width: 40vw;
+  .none {
+    display: none;
   }
 
   .heading1 p {
-    font-size: 16px;
-    width: 40vw;
-  }
-
-  .button {
-    width: 18vw;
+    font-size: 18px;
+    width: 60vw;
     margin-top: 5px;
   }
+
+  .button {
+    width: 130px;
+    font-size: 16px;
+    margin-top: -10px;
+  }
 }
 
-@media only screen and (max-width: 1500px) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1900px) and (-webkit-min-device-pixel-ratio: 1) {
   .container {
     background-position-x: right;
   }
 
   nav ul {
-    width: 20vw;
+    width: 26vw;
     font-size: 20px;
-    margin-right: 100px;
+    margin-right: 250px;
   }
 
   nav a img {
     width: 10vw;
-    font-size: 30px;
-    margin-left: 100px;
+    margin-left: 250px;
   }
 
   .hero {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
   }
 
   .heading1 h1 {
-    font-size: 45px;
-    width: 50vw;
+    font-size: 50px;
+    width: 40vw;
+    margin-bottom: -15px;
   }
 
   .heading1 h3 {
-    font-size: 16px;
-    width: 50vw;
+    font-size: 20px;
+    width: 40vw;
+    margin-top: 30px;
+  }
+
+  .none {
+    display: none;
   }
 
   .heading1 p {
-    font-size: 15px;
-    width: 50vw;
+    font-size: 18px;
+    width: 40vw;
+    margin-top: 5px;
   }
 
   .button {
-    width: 18vw;
-    margin-top: 30px;
+    width: 130px;
+    font-size: 16px;
+    margin-top: -10px;
   }
 }
+
+/
