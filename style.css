@@ -304,13 +304,13 @@ ion-icon[name='mail-outline']:hover {
   }
 
   nav ul {
-    width: 26vw;
+    width: 12vw;
     font-size: 20px;
     margin-right: 250px;
   }
 
   nav a img {
-    width: 10vw;
+    width: 5vw;
     margin-left: 250px;
   }
 
@@ -320,7 +320,7 @@ ion-icon[name='mail-outline']:hover {
   }
 
   .heading1 h1 {
-    font-size: 45px;
+    font-size: 65px;
     width: 40vw;
     margin-bottom: -15px;
   }
