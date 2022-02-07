@@ -64,7 +64,6 @@ nav ul {
   justify-content: space-between;
   list-style-type: none;
   margin-top: 60px;
-  margin-right: 300px;
   position: relative;
 }
 
@@ -202,7 +201,7 @@ ion-icon[name='mail-outline']:hover {
   ion-icon[name='logo-youtube'] {
     display: none;
   }
-  
+
   ion-icon[name='logo-instagram'] {
     display: none;
   }
@@ -210,7 +209,6 @@ ion-icon[name='mail-outline']:hover {
   .none {
     display: none;
   }
-
 
   .hero {
     margin-right: 40px;
@@ -228,7 +226,6 @@ ion-icon[name='mail-outline']:hover {
     width: 50vw;
   }
 
-  
   .heading1 p {
     font-size: 10px;
     width: 65vw;
@@ -262,7 +259,7 @@ ion-icon[name='mail-outline']:hover {
   ion-icon[name='logo-youtube'] {
     display: block;
   }
-  
+
   ion-icon[name='logo-instagram'] {
     display: block;
   }
@@ -301,7 +298,7 @@ ion-icon[name='mail-outline']:hover {
   }
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1900px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 1) {
   .container {
     background-position-x: right;
   }
@@ -350,5 +347,3 @@ ion-icon[name='mail-outline']:hover {
     margin-top: -10px;
   }
 }
-
-/
